@@ -1,0 +1,17 @@
+start quiz
+ -start questions
+	- if question correct --> you go next question
+	- if wrong --> you lose -10 sec and you go next question
+	- if times goes to 0 "end quiz"	
+		
+	
+ -start timer
+	- interval timer 
+
+end quiz
+	- change to page3 (submit initials and Highscore page)
+	- calculate score (time)
+
+highscore page
+	- change from page 3 to highsocre page
+	
