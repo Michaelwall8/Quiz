@@ -115,22 +115,27 @@ function sendHighscore() {
 function startQuestion1(){
 
     // access the text inside the html tag with id="question-title"
-    questionTitle.innerHTML = "whats Rodney Mullen last name?"
-    option1.innerHTML = "Benny"
-    option2.innerHTML = "Mullen"
-    option3.innerHTML = "Fredericten"
-    option4.innerHTML = "Glenting"
+    questionTitle.innerHTML = "What is the 2 colors on the flag?"
+    option1.innerHTML = "red and white"
+    option2.innerHTML = "green and blue"
+    option3.innerHTML = "red yellow and white"
+    option4.innerHTML = "green purple"
+
+    option1.setAttribute("answer", "yes")
+    option2.setAttribute("answer", "no")
+    option3.setAttribute("answer", "no")
+    option4.setAttribute("answer", "no")
 
 }
 
 function startQuestion2(){
 
     // access the text inside the html tag with id="question-title"
-    questionTitle.innerHTML = "where do you live?"
-    option1.innerHTML = "Canada"
-    option2.innerHTML = "USA"
-    option3.innerHTML = "Chile"
-    option4.innerHTML = "Argentina"
+    questionTitle.innerHTML = "Which continent is Canada situated in?"
+    option1.innerHTML = "North America"
+    option2.innerHTML = "Africa"
+    option3.innerHTML = "South America"
+    option4.innerHTML = "Europe"
 
     option1.setAttribute("answer", "yes")
     option2.setAttribute("answer", "no")
@@ -142,7 +147,7 @@ function startQuestion2(){
 function startQuestion3(){
 
     // access the text inside the html tag with id="question-title"
-    questionTitle.innerHTML = "Canada capital?"
+    questionTitle.innerHTML = "What is the capital of Canada?"
     option1.innerHTML = "Madrid"
     option2.innerHTML = "Lima"
     option3.innerHTML = "Santiago"
@@ -159,11 +164,11 @@ function startQuestion3(){
 function startQuestion4(){
 
     // access the text inside the html tag with id="question-title"
-    questionTitle.innerHTML = "Canada?"
-    option1.innerHTML = "Maid"
-    option2.innerHTML = "Li"
-    option3.innerHTML = "Sio"
-    option4.innerHTML = "Oa"
+    questionTitle.innerHTML = "What date is the anniversary of Canada?"
+    option1.innerHTML = "July 1st"
+    option2.innerHTML = "June 7th"
+    option3.innerHTML = "March 19th"
+    option4.innerHTML = "October 4th"
 
     option1.setAttribute("answer", "yes")
     option2.setAttribute("answer", "no")
@@ -175,11 +180,11 @@ function startQuestion4(){
 function startQuestion5(){
 
     // access the text inside the html tag with id="question-title"
-    questionTitle.innerHTML = "hghg"
-    option1.innerHTML = "fd"
-    option2.innerHTML = "gfvgbfb"
-    option3.innerHTML = "bffhb"
-    option4.innerHTML = "hjhmm"
+    questionTitle.innerHTML = "The province that has a massive population of french speaking people is?"
+    option1.innerHTML = "Alberta"
+    option2.innerHTML = "Manitoba"
+    option3.innerHTML = "Quebec"
+    option4.innerHTML = "Ontario"
 
     option1.setAttribute("answer", "no")
     option2.setAttribute("answer", "no")
